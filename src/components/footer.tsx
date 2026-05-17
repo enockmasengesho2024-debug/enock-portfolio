@@ -1,24 +1,25 @@
 function Footer() {
   return (
     <footer className="footer">
-      <div>
-        <h2>Moli</h2>
-        <p>
-          Helping users learn, plan, and grow with simple digital support tools.
-        </p>
-      </div>
+      <h2>Enock Portfolio</h2>
+      <p>
+        A personal portfolio showing my software development projects, skills,
+        education, and growth as a developer.
+      </p>
 
       <div className="footer-links">
         <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#resources">Resources</a>
-        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
 
-      <p className="copyright">
-        © 2026 Moli. All rights reserved.
-      </p>
+      <div className="social-links">
+        <a href="#" aria-label="GitHub link">GitHub</a>
+        <a href="#" aria-label="LinkedIn link">LinkedIn</a>
+      </div>
+
+      <p className="copyright">© 2026 Enock Portfolio. All rights reserved.</p>
     </footer>
   );
 }

@@ -9,122 +9,189 @@ function App() {
       <main>
         <section id="home" className="section hero-section">
           <div className="hero-content">
-            <span className="tag">Welcome to Moli</span>
-            <h1>Simple tools for learning, planning, and personal growth.</h1>
+            <span className="tag">Welcome to My Portfolio</span>
+            <h1>Hi, I am Enock. I build clean and responsive web projects.</h1>
             <p>
-              Moli is a helpful digital app designed to support students and
-              individuals with study support, organization, useful resources,
-              and confidence-building tools.
+              I am a software development student building projects with HTML,
+              CSS, JavaScript, TypeScript, React, Bootstrap, and GitHub. This
+              portfolio shows my skills, class projects, and development growth.
             </p>
-            <a href="#services" className="hero-btn">
-              Explore Features
-            </a>
-          </div>
-        </section>
-
-        <section id="services" className="section">
-          <div className="section-heading">
-            <h2>Our Services</h2>
-            <p>
-              Moli provides simple and clear tools that help users stay focused,
-              organized, and prepared.
-            </p>
-          </div>
-
-          <div className="cards">
-            <div className="card">
-              <h3>Study Support</h3>
-              <p>
-                Helpful learning tools that make lessons easier to understand
-                and review step by step.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Task Planning</h3>
-              <p>
-                Simple planning features help users organize school work,
-                personal goals, and daily responsibilities.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Confidence Building</h3>
-              <p>
-                Moli encourages users to practice skills, track progress, and
-                build confidence through small wins.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section id="resources" className="section resources-section">
-          <div className="section-heading">
-            <h2>Resources</h2>
-            <p>
-              These resources give users extra support for learning, personal
-              growth, and digital organization.
-            </p>
-          </div>
-
-          <div className="resource-list">
-            <div className="resource-item">
-              <h3>Learning Guides</h3>
-              <p>
-                Short guides that explain important topics in a clear and simple
-                way.
-              </p>
-            </div>
-
-            <div className="resource-item">
-              <h3>Review Activities</h3>
-              <p>
-                Practice activities help users prepare for quizzes, assignments,
-                and class discussions.
-              </p>
-            </div>
-
-            <div className="resource-item">
-              <h3>Digital Tools</h3>
-              <p>
-                Online tools support studying, note-taking, time management, and
-                goal tracking.
-              </p>
+            <div className="hero-buttons">
+              <a href="#projects" className="hero-btn">
+                View Projects
+              </a>
+              <a href="#contact" className="hero-btn secondary-btn">
+                Contact Me
+              </a>
             </div>
           </div>
         </section>
 
         <section id="about" className="section about-section">
-          <div className="about-box">
-            <h2>About Moli</h2>
+          <div className="section-heading">
+            <h2>About Me</h2>
             <p>
-              Moli is an educational and support-focused app created to help
-              users improve learning, organization, and self-confidence. The app
-              brings important tools into one simple place so users can stay
-              motivated and make progress.
+              Learn more about my education, goals, and software development
+              journey.
+            </p>
+          </div>
+
+          <div className="about-box">
+            <h3>Software Development Student</h3>
+            <p>
+              I am learning how to design and build websites and applications
+              that are useful, organized, and easy to use. My goal is to keep
+              improving my coding skills and create projects that solve real
+              problems.
             </p>
             <p>
-              The goal of Moli is to make support feel simple, friendly, and
-              easy to access. It can be used by students, families, or anyone
-              who wants help building better habits.
+              I enjoy working with front-end design, responsive layouts,
+              JavaScript functionality, and React components. I am also learning
+              how to use GitHub and live servers to publish my work online.
+            </p>
+          </div>
+        </section>
+
+        <section id="skills" className="section skills-section">
+          <div className="section-heading">
+            <h2>Skills</h2>
+            <p>
+              These are the tools and technologies I have practiced in my
+              coursework and projects.
+            </p>
+          </div>
+
+          <div className="skills-grid">
+            <div className="skill-card">HTML</div>
+            <div className="skill-card">CSS</div>
+            <div className="skill-card">JavaScript</div>
+            <div className="skill-card">TypeScript</div>
+            <div className="skill-card">React</div>
+            <div className="skill-card">Bootstrap</div>
+            <div className="skill-card">GitHub</div>
+            <div className="skill-card">VS Code</div>
+            <div className="skill-card">Vue</div>
+            <div className="skill-card">Node</div>
+
+            
+          </div>
+        </section>
+
+        <section id="projects" className="section projects-section">
+          <div className="section-heading">
+            <h2>Projects</h2>
+            <p>
+              These examples show my experience with JavaScript, Bootstrap,
+              React, animation, and responsive design.
+            </p>
+          </div>
+
+          <div className="project-grid">
+            <article className="project-card">
+              <div className="project-image">React</div>
+              <h3>Moli App</h3>
+              <p>
+                A React + TypeScript application created to support learning,
+                planning, resources, and personal growth.
+              </p>
+              <a href="https://lerningmaterial2026.netlify.app" className="project-link">
+                Live Link
+              </a>
+            </article>
+
+            <article className="project-card">
+              <div className="project-image">Bootstrap</div>
+              <h3>Bootstrap Website</h3>
+              <p>
+                A responsive website built with Bootstrap components, cards,
+                navigation, and mobile-friendly layout.
+              </p>
+              <a href="#" className="project-link">
+                Live Link Coming Soon
+              </a>
+            </article>
+
+            <article className="project-card">
+              <div className="project-image">JS</div>
+              <h3>JavaScript Project</h3>
+              <p>
+                A class project using JavaScript to create interactive features,
+                events, DOM updates, and user actions.
+              </p>
+              <a href="#" className="project-link">
+                Live Link Coming Soon
+              </a>
+            </article>
+
+            <article className="project-card">
+              <div className="project-image">CSS</div>
+              <h3>Animated Website</h3>
+              <p>
+                A website example that uses hover effects, smooth transitions,
+                animations, and polished visual design.
+              </p>
+              <a href="#" className="project-link">
+                Live Link Coming Soon
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <section id="certificates" className="section certificates-section">
+          <div className="section-heading">
+            <h2>Certificates & Education</h2>
+            <p>
+              This section can show earned certificates, degrees, or future
+              achievements.
+            </p>
+          </div>
+
+          <div className="certificate-box">
+            <h3>Software Development Coursework</h3>
+            <p>
+              Completed and practiced projects involving web development,
+              JavaScript, Bootstrap, React, TypeScript, and responsive design.
+            </p>
+          </div>
+
+          <div className="certificate-box coming-soon">
+            <h3>Certificates Coming Soon</h3>
+            <p>
+              More certificates and completed achievements will be added as they
+              become available.
             </p>
           </div>
         </section>
 
         <section id="contact" className="section contact-section">
           <div className="section-heading">
-            <h2>Contact Us</h2>
+            <h2>Contact Me</h2>
             <p>
-              Send us a message if you want to learn more about Moli or ask for
-              support.
+              Use the form below to send a message. The form includes basic
+              required-field validation.
             </p>
           </div>
 
           <form className="contact-form">
-            <input type="text" placeholder="Your name" />
-            <input type="email" placeholder="Your email" />
-            <textarea placeholder="Write your message"></textarea>
-            <button type="button">Send Message</button>
+            <label htmlFor="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name" required />
+
+            <label htmlFor="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label htmlFor="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Write your message"
+              required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
           </form>
         </section>
       </main>
