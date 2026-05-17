@@ -477,9 +477,6 @@ body {
     font-size: 2rem;
   }
 
-  .about-box {
-    padding: 28px;
-  }
 
   .footer-links {
     display: grid;
@@ -738,5 +735,49 @@ body {
 .skill-card:hover {
   transform: translateY(-6px) scale(1.05);
   box-shadow: 0 0 30px rgba(124, 58, 237, 0.65);
+}
+.about-box {
+  position: relative;
+  background: white;
+  border-radius: 24px;
+  padding: 40px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.about-box:hover {
+  transform: translateY(-8px);
+  border-color: #7c3aed;
+  box-shadow:
+    0 0 12px #00d4ff,
+    0 0 25px #7c3aed,
+    0 0 40px rgba(255, 78, 205, 0.7);
+}
+
+.about-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.75),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.about-box:hover::after {
+  left: 120%;
+}
+.about-box h3,
+.about-box p {
+  position: relative;
+  z-index: 2;
 }
 
