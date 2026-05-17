@@ -26,7 +26,6 @@ function App() {
             </div>
           </div>
         </section>
-
         <section id="about" className="section about-section">
           <div className="section-heading">
             <h2>About Me</h2>
@@ -35,7 +34,6 @@ function App() {
               journey.
             </p>
           </div>
-
           <div className="about-box">
             <h3>Software Development Student</h3>
             <p>
@@ -51,7 +49,6 @@ function App() {
             </p>
           </div>
         </section>
-
         <section id="skills" className="section skills-section">
           <div className="section-heading">
             <h2>Skills</h2>
@@ -106,8 +103,8 @@ function App() {
                 A responsive website built with Bootstrap components, cards,
                 navigation, and mobile-friendly layout.
               </p>
-              <a href="#" className="project-link">
-                Live Link Coming Soon
+              <a href="https://thechoicee.netlify.app/" className="project-link">
+                Live Link 
               </a>
             </article>
 
@@ -118,7 +115,7 @@ function App() {
                 A class project using JavaScript to create interactive features,
                 events, DOM updates, and user actions.
               </p>
-              <a href="#" className="project-link">
+              <a href="https://booking250.netlify.app/" className="project-link">
                 Live Link Coming Soon
               </a>
             </article>
@@ -130,8 +127,8 @@ function App() {
                 A website example that uses hover effects, smooth transitions,
                 animations, and polished visual design.
               </p>
-              <a href="#" className="project-link">
-                Live Link Coming Soon
+              <a href="https://animation0011.netlify.app/" className="project-link">
+                Live Link 
               </a>
             </article>
           </div>
