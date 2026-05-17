@@ -116,7 +116,7 @@ function App() {
                 events, DOM updates, and user actions.
               </p>
               <a href="https://booking250.netlify.app/" className="project-link">
-                Live Link Coming Soon
+                Live Link 
               </a>
             </article>
 
